@@ -1,14 +1,15 @@
 package handlers
 
 import (
-	"JWT/internal/entity"
-	"JWT/pkg/auth"
 	"errors"
 	"fmt"
-	"github.com/gin-gonic/gin"
-	"github.com/golang-jwt/jwt/v5"
 	"net/http"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/golang-jwt/jwt/v5"
+	"github.com/rusvlp/JWT/internal/entity"
+	"github.com/rusvlp/JWT/pkg/auth"
 )
 
 type DtoUser struct {

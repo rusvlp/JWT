@@ -1,13 +1,14 @@
 package handlers
 
 import (
-	"JWT/internal/entity"
-	"JWT/internal/usecase"
 	"errors"
 	"fmt"
-	"github.com/gin-gonic/gin"
 	"net/http"
 	"strconv"
+
+	"github.com/gin-gonic/gin"
+	"github.com/rusvlp/JWT/internal/entity"
+	"github.com/rusvlp/JWT/internal/usecase"
 )
 
 var (

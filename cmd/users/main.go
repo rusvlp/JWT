@@ -1,7 +1,7 @@
 package main
 
 import (
-	"JWT/internal/app"
+	"github.com/rusvlp/JWT/internal/app"
 )
 
 func main() {

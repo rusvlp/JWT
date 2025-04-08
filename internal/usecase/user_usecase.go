@@ -1,6 +1,6 @@
 package usecase
 
-import "JWT/internal/entity"
+import "github.com/rusvlp/JWT/internal/entity"
 
 type UserUseCase struct {
 	repo entity.UserRepository

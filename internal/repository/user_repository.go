@@ -1,10 +1,11 @@
 package repository
 
 import (
-	"JWT/internal/entity"
 	"database/sql"
 	"errors"
 	"fmt"
+
+	"github.com/rusvlp/JWT/internal/entity"
 )
 
 type userRepository struct {

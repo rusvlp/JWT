@@ -1,8 +1,8 @@
 package app
 
 import (
-	"JWT/internal/delivery/gin"
-	"JWT/pkg/database"
+	"github.com/rusvlp/JWT/internal/delivery/gin"
+	"github.com/rusvlp/JWT/pkg/database"
 )
 
 func Run() {

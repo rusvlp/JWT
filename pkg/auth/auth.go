@@ -1,8 +1,6 @@
 package auth
 
-import (
-	"github.com/golang-jwt/jwt/v5"
-)
+import "github.com/golang-jwt/jwt/v5"
 
 var SECRET_KEY = []byte("bsdicuy2389[aSKLCNVWI")
 

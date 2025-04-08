@@ -1,11 +1,12 @@
 package gin
 
 import (
-	"JWT/internal/delivery/gin/handlers"
-	"JWT/internal/repository"
-	"JWT/internal/usecase"
 	"database/sql"
+
 	"github.com/gin-gonic/gin"
+	"github.com/rusvlp/JWT/internal/delivery/gin/handlers"
+	"github.com/rusvlp/JWT/internal/repository"
+	"github.com/rusvlp/JWT/internal/usecase"
 )
 
 func SetupRouters(db *sql.DB) *gin.Engine {
